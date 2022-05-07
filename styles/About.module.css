@@ -1,0 +1,12 @@
+.aboutcontainer{
+    margin: auto;
+    width: 80%;
+    
+}
+
+.container{
+    background: grey;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
