@@ -3,8 +3,14 @@ import Header from "../components/Header";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
+import About from "../components/About";
+import {useState} from 'react'
 
 export default function Home() {
+  const [open, setOpen] = useState(false)
+const toggle = () => {
+  setOpen(!open)
+}
   return (
     <>
       <div className={styles.container}>
@@ -28,19 +34,21 @@ export default function Home() {
         <main className={styles.main}>
           <div>
             {/* <div className={styles.title}> */}
-            <h1>Rita Uzoma.</h1>
+            <h1 onClick={toggle}>Rita Uzoma </h1>
+            <About open={open}/>
             {/* </div> */}
-            <div className={styles.description}>
+            {/* <div className={styles.description}>
               <h4>Frontend Developer and writer </h4>
-            </div>
+            </div> */}
 
             {/* links */}
             <div className={styles.links}>
               <ul>
-                <li>
-                  <Link href="/about">About</Link>
+                <li onClick={toggle}>
+                 About
                 </li>
-                <li>Resume</li>
+                {/* <About open={open}/> */}
+                {/* <li>Resume</li> */}
                 <li>Articles</li>
                 <li>
                   <Link href="/portfolio">Portfolio</Link>
@@ -48,18 +56,48 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.socials}>
-              <i className="fa-brands fa-2xl fa-github"></i>
-              <i className="fa-brands fa-2xl fa-linkedin"></i>
-              <i className="fa-brands fa-2xl fa-twitter"></i>
-              <i className="fa-brands fa-2xl fa-instagram"></i>
-              <i className="fa-regular fa-2xl fa-envelope"></i>
+              <a
+                href="https://github.com/i-am-rita"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-2xl fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ritauzoma/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-2xl fa-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com/reetahUzoma"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-2xl fa-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/ritadeviolinist/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-2xl fa-instagram"></i>
+              </a>
+              <a
+                href="mailto:ritauzoma07@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-regular fa-2xl fa-envelope"></i>
+              </a>
             </div>
           </div>
 
           <div className={styles.image_section}>
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
               <path
-                fill="#FF0066"
+                fill="#9e3921"
                 d="M64.1,-50.8C80.2,-30.9,88.4,-4.4,83.1,19.1C77.9,42.7,59.1,63.2,36.1,74C13,84.8,-14.4,85.7,-36.8,75.3C-59.2,64.9,-76.6,43.2,-81.6,19.2C-86.6,-4.8,-79.2,-31,-63.5,-50.8C-47.9,-70.6,-23.9,-83.9,0,-84C24,-84,48,-70.7,64.1,-50.8Z"
                 transform="translate(100 100)"
               />

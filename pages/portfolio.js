@@ -21,7 +21,7 @@ const product = [
     title: "E-commerce shop",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
-    image: "/images/e-commas.png",
+    image: "/images/foodcafe.png",
     github: "https://github.com/i-am-rita/foodCafe",
     source: "https://food-cafe-clone.netlify.app/",
   },
@@ -31,8 +31,8 @@ const product = [
     title: "E-commerce shop",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
-    image: "/images/e-commas.png",
-    github: "https://github.com/i-am-rita/e-commas-task",
+    image: "/images/api-jokes.png",
+    github: "https://github.com/i-am-rita/Api-jokes",
     source: "https://api-jokees.netlify.app",
   },
   {
@@ -40,7 +40,7 @@ const product = [
     title: "E-commerce shop",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
-    image: "/images/e-commas.png",
+    image: "/images/shopping-site.png",
     github: "/",
     source: "https://shopping-syte.netlify.app",
   },
@@ -49,7 +49,7 @@ const product = [
     title: "E-commerce shop",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
-    image: "/images/e-commas.png",
+    image: "/images/grid.png",
     github: "https://github.com/i-am-rita/grid_layout",
     source: "https://layoutgrid.netlify.app",
   },
@@ -58,18 +58,27 @@ const product = [
     title: "E-commerce shop",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
-    image: "/images/e-commas.png",
+    image: "/images/nature-site.png",
     github: "/",
-    source: "https://natures-website.netlify.app",
+    source: "https://nature-reetah.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "E-commerce shop",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
-    image: "/images/e-commas.png",
+    image: "/images/micro-grid.png",
     github: "/",
     source: "https://microgrid-clone.netlify.app",
+  },
+  {
+    id: 6,
+    title: "E-commerce shop",
+    description:
+      "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
+    image: "/images/netflix.png",
+    github: "https://github.com/i-am-rita/netflixx-clone",
+    source: "https://netphlixclone.netlify.app/",
   },
 ];
 const portfolio = () => {
