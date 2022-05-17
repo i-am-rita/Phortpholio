@@ -3,14 +3,14 @@ import Header from "../components/Header";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
-import About from "../components/About";
-import {useState} from 'react'
+import About from "./about";
+import { useState } from "react";
 
 export default function Home() {
-  const [open, setOpen] = useState(false)
-const toggle = () => {
-  setOpen(!open)
-}
+  const [open, setOpen] = useState(false);
+  const toggle = () => {
+    setOpen(!open);
+  };
   return (
     <>
       <div className={styles.container}>
@@ -34,18 +34,27 @@ const toggle = () => {
         <main className={styles.main}>
           <div>
             {/* <div className={styles.title}> */}
-            <h1 onClick={toggle}>Rita Uzoma </h1>
-            <About open={open}/>
+            <h1>Rita Uzoma </h1>
             {/* </div> */}
-            {/* <div className={styles.description}>
+            <div className={styles.description}>
               <h4>Frontend Developer and writer </h4>
-            </div> */}
+              <p>
+                Rita is an exceptional team player with an analytical approach
+                to developing useful solutions, enjoys building eye-catchy
+                accessible user interfaces. A frontend developer focused majorly
+                on the frontend side of the web, with experience in React,
+                Nextjs, JavaScript. When I am not writing codes that will
+                display awesome interfaces or codes that will solve problems,
+                you'll find me swimming, playing my violin, surfing the
+                internet or spending time with friends and family.
+              </p>
+            </div>
 
             {/* links */}
             <div className={styles.links}>
               <ul>
-                <li onClick={toggle}>
-                 About
+                <li>
+                  <Link href="/About">About</Link>
                 </li>
                 {/* <About open={open}/> */}
                 {/* <li>Resume</li> */}

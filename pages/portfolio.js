@@ -1,4 +1,4 @@
-import Head from "next/head";
+// import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Portf.module.css";
 // import { product } from "../..//utils/data";
@@ -72,7 +72,7 @@ const product = [
     source: "https://microgrid-clone.netlify.app",
   },
   {
-    id: 6,
+    id: 7,
     title: "E-commerce shop",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
