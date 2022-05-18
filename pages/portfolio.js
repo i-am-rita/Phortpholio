@@ -18,10 +18,9 @@ const product = [
   },
   {
     id: 1,
-    title: "E-commerce shop",
-    description:
-      "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
-    image: "/images/foodcafe.png",
+    title: "Food Cafe",
+    description: 'Built with'
+     image: "/images/foodcafe.png",
     github: "https://github.com/i-am-rita/foodCafe",
     source: "https://food-cafe-clone.netlify.app/",
   },
@@ -30,7 +29,7 @@ const product = [
     id: 2,
     title: "E-commerce shop",
     description:
-      "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
+      "Jokes from calling an API using Javascript.",
     image: "/images/api-jokes.png",
     github: "https://github.com/i-am-rita/Api-jokes",
     source: "https://api-jokees.netlify.app",
