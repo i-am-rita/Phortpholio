@@ -1,12 +1,5 @@
 export const data = [
-  {
-    name: "Home",
-    path: "/",
-  },
-  {
-    name: "About",
-    path: "/About",
-  },
+
   {
     name: "Portfolio",
     path: "/portfolio",

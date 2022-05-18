@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Link from "next/link";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 import About from "./about";
 import { useState } from "react";
@@ -11,6 +11,10 @@ export default function Home() {
   const toggle = () => {
     setOpen(!open);
   };
+  const [openBurger, setOpenBurger] = useState(false);
+  const toggleBurger = () => {
+    setOpenBurger((prev) => !prev);
+  }
   return (
     <>
       <div className={styles.container}>
@@ -30,12 +34,10 @@ export default function Home() {
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
           />
         </Head>
-        {/* <Navbar /> */}
+
         <main className={styles.main}>
           <div>
-            {/* <div className={styles.title}> */}
             <h1>Rita Uzoma </h1>
-            {/* </div> */}
             <div className={styles.description}>
               <h4>Frontend Developer and writer </h4>
               <p>
@@ -45,25 +47,24 @@ export default function Home() {
                 on the frontend side of the web, with experience in React,
                 Nextjs, JavaScript. When I am not writing codes that will
                 display awesome interfaces or codes that will solve problems,
-                you'll find me swimming, playing my violin, surfing the
-                internet or spending time with friends and family.
+                you'll find me swimming, playing my violin, surfing the internet
+                or spending time with friends and family. Connect with her on
+                any of these social media platforms:
               </p>
             </div>
 
             {/* links */}
-            <div className={styles.links}>
+            {/* <div className={styles.links}>
               <ul>
                 <li>
-                  <Link href="/About">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
-                {/* <About open={open}/> */}
-                {/* <li>Resume</li> */}
                 <li>Articles</li>
                 <li>
                   <Link href="/portfolio">Portfolio</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className={styles.socials}>
               <a
                 href="https://github.com/i-am-rita"
