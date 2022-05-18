@@ -19,7 +19,7 @@ const product = [
   {
     id: 1,
     title: "Food Cafe",
-    description: 'Built with'
+    description: 'Built with',
      image: "/images/foodcafe.png",
     github: "https://github.com/i-am-rita/foodCafe",
     source: "https://food-cafe-clone.netlify.app/",
@@ -27,7 +27,7 @@ const product = [
 
   {
     id: 2,
-    title: "E-commerce shop",
+    title: "Api Jokes",
     description:
       "Jokes from calling an API using Javascript.",
     image: "/images/api-jokes.png",
@@ -36,7 +36,7 @@ const product = [
   },
   {
     id: 3,
-    title: "E-commerce shop",
+    title: "Shopping site",
     description:
       "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
     image: "/images/shopping-site.png",
@@ -45,18 +45,18 @@ const product = [
   },
   {
     id: 4,
-    title: "E-commerce shop",
+    title: "Grid layouts",
     description:
-      "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
+      "Play around with grid",
     image: "/images/grid.png",
     github: "https://github.com/i-am-rita/grid_layout",
     source: "https://layoutgrid.netlify.app",
   },
   {
     id: 5,
-    title: "E-commerce shop",
+    title: "Nature website",
     description:
-      "lorem is anjvghb mnb vh v ghvgbgbghjgugbhjbbvjhbvjhvb hbvbhbchsbhbchighvcgfvfutghv short description",
+      "",
     image: "/images/nature-site.png",
     github: "/",
     source: "https://nature-reetah.netlify.app",
