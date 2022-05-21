@@ -1,11 +1,11 @@
-import Head from "next/head";
+// import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Portf.module.css";
 // import { product } from "../..//utils/data";
 import "../public/images/e-commas.png";
-import Link from "next/link";
-import { Grid, GridItem } from "@chakra-ui/react";
-import Navbar from "../components/Navbar";
+// import Link from "next/link";
+// import { Grid, GridItem } from "@chakra-ui/react";
+// import Navbar from "../components/Navbar";
 
 const product = [
   {
@@ -69,41 +69,38 @@ const product = [
   },
 ];
 const portfolio = () => {
-  <Navbar/>
+  // <Navbar />
   return (
-    
     <>
-      
-      {/* <h1>Use glass morphism here for the projects</h1> */}
       <div className={styles.port_container}>
-        {/* <Grid templateColumns="repeat(2, 1fr)" gap={50} className={styles.port_grid}> */}
-        {product.map((prods, id) => {
-          return (
-            <div key={id} className={styles.projectcontainer}>
-              <div className={styles.prod_image}>
-                <a href={prods.source} target="_blank" rel="norefferer">
-                  <Image
-                    className={styles.image}
-                    src={prods.image}
-                    alt="/"
-                    width={800}
-                    height={500}
-                  />
-                </a>
-                <div className={styles.text_onhover}>
-                  <a href={prods.source} target="_blank" rel="noreferrer">
-                    <h3>Click me</h3>{" "}
+        <div className={styles.container}>
+          {product.map((prods, id) => {
+            return (
+              <div key={id} className={styles.projectcontainer}>
+                <div className={styles.prod_image}>
+                  <a href={prods.source} target="_blank" rel="norefferer">
+                    <Image
+                      className={styles.image}
+                      src={prods.image}
+                      alt="/"
+                      width={800}
+                      height={500}
+                    />
                   </a>
+                  <div className={styles.text_onhover}>
+                    <a href={prods.source} target="_blank" rel="noreferrer">
+                      <h3>Click me</h3>{" "}
+                    </a>
+                  </div>
+                </div>
+                <div className={styles.prodtext}>
+                  <h2>{prods.title}</h2>
+                  <p>{prods.description}</p>
                 </div>
               </div>
-              <div className={styles.prodtext}>
-                <h2>{prods.title}</h2>
-                <p>{prods.description}</p>
-              </div>
-            </div>
-          );
-        })}
-        {/* </Grid> */}
+            );
+          })}
+        </div>
       </div>
     </>
   );

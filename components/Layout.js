@@ -1,10 +1,13 @@
 import Navbar from "./Navbar";
 
-export default function Layout({ children }) {
+ const Layout = ({ children }) => {
   return (
-    <>
-      <Navbar />
-     {children}
-    </>
+
+    <div>
+    <Navbar />
+    {children}
+    </div>
+
   );
 }
+export default Layout; 

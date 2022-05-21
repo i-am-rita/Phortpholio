@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=EB+Garamond&family=Fugaz+One&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Tapestry&display=swap");
 
-.port_container {
-  margin: 100px 0 0 0;
-  padding: 30px;
+
+.container {
+  
+  padding: 50px 30px;
   background: linear-gradient(30deg, #8d4a8b 30%, #9e4964 55%, #9e489e 94%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
-  /* border-radius: 5px; */
   backdrop-filter: blur(5px);
 }
 
@@ -32,7 +32,6 @@
   z-index: 1;
 }
 .text_onhover {
-
   position: absolute;
   top: 65%;
   left: 50%;
@@ -41,9 +40,7 @@
   transform: translate(-50%, -120%);
   -ms-transform: translate(-50%, -50%);
   opacity: 0;
-  
 }
-
 
 .text_onhover h3 {
   font-size: 2rem;
@@ -68,7 +65,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   font-family: "Rubik Moonrocks", cursive;
-  
+
   /* line-height: 1; */
 }
 .prodtext p {
@@ -79,5 +76,4 @@
   .port_container {
     grid-template-columns: 1fr;
   }
-
 }
