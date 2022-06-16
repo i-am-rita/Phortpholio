@@ -69,7 +69,6 @@ const product = [
   },
 ];
 const portfolio = () => {
-  // <Navbar />
   return (
     <>
       <div className={styles.port_container}>

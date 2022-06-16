@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import Layout from "../components/Layout";
 // import { ChakraProvider } from "@chakra-ui/react";
 

@@ -1,21 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=EB+Garamond&family=Fugaz+One&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Tapestry&display=swap");
 
-
+/* .port_container{
+} */
 .container {
-  
   padding: 50px 30px;
-  background: linear-gradient(30deg, #8d4a8b 30%, #9e4964 55%, #9e489e 94%);
+  background: #262833;
+  /* background: linear-gradient(30deg, #8d4a8b 30%, #9e4964 55%, #9e489e 94%); */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   backdrop-filter: blur(5px);
+
 }
 
 .projectcontainer {
   backdrop-filter: blur(10px);
   border-radius: 5px;
   border: 1px solid rgba(65, 74, 74, 0.2);
-  background: rgb(202, 192, 192);
+  /* background: rgb(202, 192, 192); */
+  background: #000;
+  margin-top: 15%;
+
 }
 .prod_image {
   padding: 30px;
@@ -24,7 +29,7 @@
 }
 
 .prod_image:hover .image {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .prod_image:hover .text_onhover {
@@ -46,7 +51,11 @@
   font-size: 2rem;
   font-weight: 700;
   font-family: cursive;
-  color: #000;
+  color: wheat;
+  border: 2px solid wheat;
+  border-radius: 5px;
+  padding: 0 10px;
+  /* letter-spacing: 40px; */
 }
 
 /* .text_onhover i {
@@ -65,7 +74,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   font-family: "Rubik Moonrocks", cursive;
-
+  color: aliceblue;
   /* line-height: 1; */
 }
 .prodtext p {
@@ -73,7 +82,7 @@
 }
 
 @media (max-width: 720px) {
-  .port_container {
+  .container {
     grid-template-columns: 1fr;
   }
 }
