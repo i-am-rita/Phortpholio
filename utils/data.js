@@ -8,10 +8,10 @@ export const data = [
     name: "Resume",
     path: "/resume",
   },
-  {
-    name: "Blog",
-    path: "/blog",
-  },
+  // {
+  //   name: "Blog",
+  //   path: "/blog",
+  // },
 ];
 
 

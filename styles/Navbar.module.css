@@ -16,7 +16,8 @@
   margin-left: 20px;
   cursor: pointer;
   font-size: 2rem;
-  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Oleo Script Swash Caps", cursive;
+  /* font-family: "Rubik Moonrocks", cursive; */
   color:wheat;
 }
 
@@ -41,10 +42,8 @@
 }
 
 .navLinks:hover {
-  background-color: wheat;
-  color: #000;
-  border-radius: 5px;
-  transition: all 0.2s ease-out;
+border-bottom: 2px solid wheat;
+  color: wheat;
 }
 
 .hamburger {
@@ -53,7 +52,18 @@
 
 @media screen and (max-width: 900px) {
   .navbar {
-    position: relative;
+    /* position: relative; */
+    width: 100% !important;
+    justify-content: space-between;
+    margin: 0 !important;
+   }
+
+  .navLinks{
+    font-size: 12px;
+    justify-content: end;
+    padding: 0;
+
+
   }
   /* .navMenu{
   display: flex;
@@ -85,7 +95,7 @@ display: table;
   background-color: aqua;
   border-radius: 0;
 } */
-  .sidenav {
+  /* .sidenav {
     position: fixed;
     width: 110%;
     height: 100vh;
@@ -108,12 +118,11 @@ display: table;
     display: flex;
     flex-direction: column;
     /* padding: -100px; */
-  }
+  /* }
 
   .navLinks {
     text-align: center;
     padding: 2rem;
-    /* width: 100%; */
     display: table;
     list-style: none;
   }
@@ -133,5 +142,5 @@ display: table;
     transform: translate(-80%, 75%);
     font-size: 1.5rem;
     cursor: pointer;
-  }
+  } */ 
 }
