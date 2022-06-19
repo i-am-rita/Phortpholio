@@ -11,11 +11,14 @@ const Resume = () => {
         <div className={styles.download_resume}>
           <button>
             <a
-              href="https://drive.google.com/file/d/1jNA57EhZlIv0Gy7Cfl6VPjJWnkWzD7V8/view"
+              href="https://drive.google.com/file/d/1jNA57EhZlIv0Gy7Cfl6VPjJWnkWzD7V8/preview"
               target="_blank"
             >
               Download a copy
             </a>
+            {/* <iframe src= width="640" height="480" allow="autoplay">
+              
+            </iframe> */}
           </button>
         </div>
         <div className={styles.grid}>
@@ -42,7 +45,10 @@ const Resume = () => {
                 </p>
                 <p>
                   {" "}
-                  <i className="fa-brands fa-2xl fa-linkedin" style={{zIndex: '1'}}></i>
+                  <i
+                    className="fa-brands fa-2xl fa-linkedin"
+                    style={{ zIndex: "1" }}
+                  ></i>
                   <a
                     href="https://www.linkedin.com/in/ritauzoma/"
                     target="_blank"
@@ -242,7 +248,7 @@ const Resume = () => {
       </div>
       <div className={styles.download}>
         <a
-          href="https://drive.google.com/file/d/1jNA57EhZlIv0Gy7Cfl6VPjJWnkWzD7V8/view"
+          href="https://drive.google.com/file/d/1jNA57EhZlIv0Gy7Cfl6VPjJWnkWzD7V8/preview"
           target="_blank"
         >
           Click to view my resume
