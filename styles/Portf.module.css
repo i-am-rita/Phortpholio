@@ -10,7 +10,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   backdrop-filter: blur(5px);
-
 }
 
 .projectcontainer {
@@ -20,7 +19,6 @@
   /* background: rgb(202, 192, 192); */
   background: #000;
   margin-top: 15%;
-
 }
 .prod_image {
   padding: 30px;
@@ -73,7 +71,8 @@
 .prodtext h2 {
   font-size: 1.2rem;
   font-weight: 700;
-  font-family: "Rubik Moonrocks", cursive;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
   color: aliceblue;
   /* line-height: 1; */
 }

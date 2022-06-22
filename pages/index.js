@@ -46,9 +46,9 @@ export default function Home() {
               <p>
                 Rita is an exceptional team player with an analytical approach
                 to developing useful solutions, enjoys building eye-catchy
-                accessible user interfaces. A frontend developer focused majorly
+                accessible user interfaces. A software developer focused majorly
                 on the frontend side of the web, with experience in React,
-                Nextjs, JavaScript. <br />
+                Nextjs and JavaScript <br />
                 When I am not writing codes that will display awesome interfaces
                 or codes that will solve problems, you'll find me swimming,
                 playing my violin, surfing the internet or spending time with
@@ -102,7 +102,7 @@ export default function Home() {
                 d="M64.1,-50.8C80.2,-30.9,88.4,-4.4,83.1,19.1C77.9,42.7,59.1,63.2,36.1,74C13,84.8,-14.4,85.7,-36.8,75.3C-59.2,64.9,-76.6,43.2,-81.6,19.2C-86.6,-4.8,-79.2,-31,-63.5,-50.8C-47.9,-70.6,-23.9,-83.9,0,-84C24,-84,48,-70.7,64.1,-50.8Z"
                 transform="translate(100 100)"
               /> */}
-              <img src="./images/passport.png" alt="Rita" />
+            <img src="./images/passport.png" alt="Rita" />
             {/* </svg> */}
           </div>
         </main>

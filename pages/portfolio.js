@@ -10,17 +10,17 @@ import "../public/images/e-commas.png";
 const product = [
   {
     id: 0,
-    title: "E-commerce shop",
+    title: "Discover beautiful places",
     // description:
     //   "E-commerce website, built with Reactjs, Redux for state management",
-    image: "/images/e-commas.png",
+    image: "/images/picnic.png",
     // github: "https://github.com/i-am-rita/e-commas-task",
-    source: "https://e-commas-task.netlify.app",
+    source: "https://picnic-webssy.netlify.app/",
   },
 
   {
     id: 1,
-    title: "Api Jokes",
+    title: "D*y Jokes",
     // description: "Jokes from calling an API using Javascript.",
     image: "/images/api-jokes.png",
     // github: "https://github.com/i-am-rita/Api-jokes",
@@ -66,6 +66,13 @@ const product = [
     image: "/images/netflix.png",
     github: "https://github.com/i-am-rita/netflixx-clone",
     source: "https://netphlixclone.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Split shopping page",
+    image: "/images/splitshop.png",
+    github: "https://github.com/i-am-rita/netflixx-clone",
+    source: "https://split-landinpage.netlify.app/",
   },
 ];
 const portfolio = () => {

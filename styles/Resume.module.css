@@ -99,6 +99,10 @@
   /* right: calc(50% - 5px); */
 }
 
+.experience ul{
+  color: rgb(122, 154, 110);
+}
+
 .duration {
   padding: 8px 18px;
   display: inline-block;

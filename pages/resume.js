@@ -35,27 +35,18 @@ const Resume = () => {
             <div className={styles.contact}>
               <div className={styles.details}>
                 <h4>Contact</h4>
+                <i className="fa-brands fa-2xl fa-linkedin"></i>
+
                 <p>+234 913 5014 404</p>
                 <p>
                   {" "}
-                  <i className="fa-regular fa-2xl fa-envelope"></i>
-                  <a href="mailto:ritauzoma07@gmail.com">
-                    ritauzoma07@gmail.com
-                  </a>
-                </p>
-                <p>
-                  {" "}
-                  <i
-                    className="fa-brands fa-2xl fa-linkedin"
-                    style={{ zIndex: "1" }}
-                  ></i>
+                  <i className="fa-brands fa-2xl fa-github"></i>
                   <a
-                    href="https://www.linkedin.com/in/ritauzoma/"
+                    href="https://github.com/i-am-rita"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {/* <i className="fa-brands fa-2xl fa-linkedin"></i> */}
-                    LinkedIn
+                    Github
                   </a>
                 </p>
                 <p>
@@ -71,15 +62,17 @@ const Resume = () => {
                 </p>
                 <p>
                   {" "}
-                  <i className="fa-brands fa-2xl fa-github"></i>
+                  <i className="fa-brands fa-2xl fa-linkedin"></i>
                   <a
-                    href="https://github.com/i-am-rita"
+                    href="https://www.linkedin.com/in/ritauzoma/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github
+                    {/* <i className="fa-brands fa-2xl fa-linkedin"></i> */}
+                    LinkedIn
                   </a>
                 </p>
+
                 <p>
                   {" "}
                   <i className="fa-brands fa-2xl fa-instagram"></i>
@@ -89,6 +82,13 @@ const Resume = () => {
                     rel="noreferrer"
                   >
                     Instagram
+                  </a>
+                </p>
+                <p>
+                  {" "}
+                  <i className="fa-regular fa-2xl fa-envelope"></i>
+                  <a href="mailto:ritauzoma07@gmail.com">
+                    ritauzoma07@gmail.com
                   </a>
                 </p>
               </div>
@@ -150,9 +150,10 @@ const Resume = () => {
               <p>
                 Rita is an exceptional team player with an analytical approach
                 to developing useful solutions, enjoys building eye-catchy
-                accessible user interfaces. A frontend developer focused majorly
+                accessible user interfaces. A software developer focused majorly
                 on the frontend side of the web, with experience in React,
-                Nextjs, JavaScript. I enjoy building accessible user interfaces.
+                Nextjs and JavaScript. I enjoy building accessible user
+                interfaces.
               </p>
             </div>
             <div className={styles.experience}>
