@@ -38,7 +38,7 @@ const Resume = () => {
                 <i className="fa-brands fa-2xl fa-linkedin"></i>
 
                 <p>+234 913 5014 404</p>
-                <p>
+                {/* <p>
                   {" "}
                   <i className="fa-brands fa-2xl fa-github"></i>
                   <a
@@ -48,7 +48,7 @@ const Resume = () => {
                   >
                     Github
                   </a>
-                </p>
+                </p> */}
                 <p>
                   {" "}
                   <i className="fa-brands fa-2xl fa-twitter"></i>
@@ -73,7 +73,7 @@ const Resume = () => {
                   </a>
                 </p>
 
-                <p>
+                {/* <p>
                   {" "}
                   <i className="fa-brands fa-2xl fa-instagram"></i>
                   <a
@@ -83,7 +83,7 @@ const Resume = () => {
                   >
                     Instagram
                   </a>
-                </p>
+                </p> */}
                 <p>
                   {" "}
                   <i className="fa-regular fa-2xl fa-envelope"></i>
@@ -95,22 +95,23 @@ const Resume = () => {
               <br />
               <div className={styles.details}>
                 <h4>Tools & Languages</h4>
-                <div className={styles.skillsgrid}>
+                <div className={styles.skillsgrid1}>
                   <div>
                     <p>Html</p>
                     <p>Css</p>
-                    <p>Javascript</p>
                     <p>Reactjs</p>
-                    <p>Nodejs</p>
-                    <p>Visual Studio</p>
+                    <p>Redux</p>
                   </div>
                   <div>
+                    <p>Javascript</p>
                     <p>Nextjs</p>
                     <p>Github</p>
                     <p>NPM</p>
-                    <p>Redux</p>
+                  </div>
+                  <div>
                     <p>Material UI</p>
                     <p>Netlify</p>
+                    <p>Visual Studio</p>
                     <p>Styled-component</p>
                   </div>
                 </div>
@@ -127,6 +128,7 @@ const Resume = () => {
                     <p>Creative</p>
                     <p>Seeking Clarity</p>
                     <p>Detail Oriented</p>
+                    <p>Outspoken</p>
                   </div>
                   <div>
                     {" "}

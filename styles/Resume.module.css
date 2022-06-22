@@ -41,6 +41,12 @@
   /* gap: 0; */
   line-height: 1;
 }
+.skillsgrid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 0; */
+  line-height: 1;
+}
 
 .skillsgrid > div {
   font-size: 16px;
