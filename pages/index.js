@@ -48,11 +48,13 @@ export default function Home() {
                 to developing useful solutions, enjoys building eye-catchy
                 accessible user interfaces. A software developer focused majorly
                 on the frontend side of the web, with experience in React,
-                Nextjs and JavaScript <br />
+                Nextjs and JavaScript.
+                <br />
                 When I am not writing codes that will display awesome interfaces
                 or codes that will solve problems, you'll find me swimming,
-                playing my violin, surfing the internet or spending time with
-                friends and family. Connect with me on any of these platforms:
+                playing my violin, surfing the internet, writing, building
+                simple projects or spending time with family and friends.
+                Connect with me on any of these platforms:
               </p>
             </div>
 

@@ -149,8 +149,10 @@
 
 @media screen and (max-width: 920px) {
   .container {
-    padding: 5rem 10rem;
+    padding: 5rem 2rem;
     margin-top: -100px;
+    margin-left :0;
+    /* margin-right: 0; */
   }
   .image_section img {
     display: none;
