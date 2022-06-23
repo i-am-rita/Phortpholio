@@ -11,7 +11,7 @@ const Resume = () => {
         <div className={styles.download_resume}>
           <button>
             <a
-              href="https://drive.google.com/file/d/1jNA57EhZlIv0Gy7Cfl6VPjJWnkWzD7V8/preview"
+              href="https://drive.google.com/file/d/1b9WtZXpDklfqbOT0oyHaOvRrVvVmm2dU/view"
               target="_blank"
             >
               Download a copy
@@ -251,7 +251,7 @@ const Resume = () => {
       </div>
       <div className={styles.download}>
         <a
-          href="https://drive.google.com/file/d/1jNA57EhZlIv0Gy7Cfl6VPjJWnkWzD7V8/preview"
+          href="https://drive.google.com/file/d/1b9WtZXpDklfqbOT0oyHaOvRrVvVmm2dU/view"
           target="_blank"
         >
           Click to view my resume
