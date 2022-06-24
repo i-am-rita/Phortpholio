@@ -55,7 +55,7 @@ export default function Home() {
                 playing my violin, surfing the internet, writing, building
                 simple projects or spending time with family and friends.
                 Connect with me on any of these platforms: Testing testing
-                testing
+                testing... another testing...
               </p>
             </div>
 
