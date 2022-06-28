@@ -102,6 +102,9 @@
   .container {
     grid-template-columns: 1fr;
   }
+  .prod_image {
+  display: none;
+  }
   .prod_image:hover {
     display: none;
   }
