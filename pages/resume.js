@@ -98,21 +98,22 @@ const Resume = () => {
                 <div className={styles.skillsgrid1}>
                   <div>
                     <p>Html</p>
-                    <p>Css</p>
                     <p>Reactjs</p>
-                    <p>Redux</p>
-                  </div>
-                  <div>
-                    <p>Javascript</p>
                     <p>Nextjs</p>
-                    <p>Github</p>
-                    <p>NPM</p>
+                    <p>Redux</p>
+                    <p>Javascript</p>
+                    <p>Context API</p>
                   </div>
                   <div>
+                    <p>Css</p>
+                    <p>SASS</p>
                     <p>Material UI</p>
+                    <p>Styled-component</p>
+                  </div>
+                  <div>
+                    <p>Github</p>
                     <p>Netlify</p>
                     <p>Visual Studio</p>
-                    <p>Styled-component</p>
                   </div>
                 </div>
               </div>
