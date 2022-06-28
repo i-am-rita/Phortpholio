@@ -54,8 +54,7 @@ export default function Home() {
                 or codes that will solve problems, you'll find me swimming,
                 playing my violin, surfing the internet, writing, building
                 simple projects or spending time with family and friends.
-                Connect with me on any of these platforms: Testing testing
-                testing... another testing...
+                Connect with me on any of these platforms: 
               </p>
             </div>
 
