@@ -102,7 +102,10 @@
   .container {
     grid-template-columns: 1fr;
   }
-  .prod_image:hover .image {
+  .prod_image:hover {
+    display: none;
+  }
+  .prod_image:hover .text_onhover {
     display: none;
   }
 }
