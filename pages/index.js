@@ -50,6 +50,7 @@ export default function Home() {
                 on the frontend side of the web, with experience in React,
                 Nextjs and JavaScript.
                 <br />
+                <br/>
                 When I am not writing codes that will display awesome interfaces
                 or codes that will solve problems, you'll find me swimming,
                 playing my violin, surfing the internet, writing, building
