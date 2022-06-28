@@ -49,13 +49,13 @@ export default function Home() {
                 accessible user interfaces. A software developer focused majorly
                 on the frontend side of the web, with experience in React,
                 Nextjs and JavaScript.
-                <br />
-                <br/>
+              </p>
+              <p>
                 When I am not writing codes that will display awesome interfaces
                 or codes that will solve problems, you'll find me swimming,
                 playing my violin, surfing the internet, writing, building
                 simple projects or spending time with family and friends.
-                Connect with me on any of these platforms: 
+                Connect with me on any of these platforms:
               </p>
             </div>
 
