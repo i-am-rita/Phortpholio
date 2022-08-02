@@ -11,21 +11,107 @@ const Resume = () => {
         <div className={styles.download_resume}>
           <button>
             <a
-              href="https://drive.google.com/file/d/1b9WtZXpDklfqbOT0oyHaOvRrVvVmm2dU/view"
+              href="https://www.canva.com/design/DAENYXolHXY/view"
               target="_blank"
             >
               Download a copy
             </a>
-            {/* <iframe src= width="640" height="480" allow="autoplay">
-              
-            </iframe> */}
           </button>
         </div>
         <div className={styles.grid}>
           <div className="leftgrid">
-            <div>
-              {/* <img src={passport} alt="Passport" /> */}
+            <div
+              style={{
+                position: "absolute",
+                width: "60%",
+                height: "100vh",
+                // paddingTop: "141.42%",
+                // paddingBottom: "40px",
+                boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+                marginTop: "1.6em",
+                marginBottom: "0.9em",
+                overflow: "hidden",
+                borderRadius: "8px",
+                willChange: "transform",
+                  alignItems: 'center',
+                  justifyContent: 'center'
+
+              }}
+            >
+              <iframe
+                loading="lazy"
+                style={{
+                  position: "absolute",
+                  width: "100%",
+                  height: "100%",
+                  top: "0",
+                  left: "0",
+                  border: 'none',
+                  padding: "0",
+                  margin: "0",
+                }}
+                // &#x2F;&#x2F;&#x2F;&#x2F;&#x2F;
+                src="https://www.canva.com/design/DAENYXolHXY/view?embed"
+                // src='https://www.canva.com/design/DAENYXolHXY/vkN5zt31M0t-Ba8lsR22ew/view?utm_content=DAENYXolHXY&utm_campaign=designshare&utm_medium=link&utm_source=viewer'
+                allowfullscreen="allowfullscreen"
+                allow="fullscreen"
+              ></iframe>
+            </div>
+{/*             
+            <a
+            href="https://www.canva.com/design/DAENYXolHXY/view?embed"
+              // href="https://www.canva.com/design/DAENYXolHXY/vkN5zt31M0t-Ba8lsR22ew/view?utm_content=DAENYXolHXY&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+              target="_blank"
+              rel="noopener"
+            >
+        
+            </a>{" "} */}
+           
+            {/* <img
+              src="https://www.canva.com/design/DAENYXolHXY/view"
+              alt="resume show na"
+            /> */}
+            {/* <img src="https://www.canva.com/design/DAENYXolHXY/vkN5zt31M0t-Ba8lsR22ew/view?utm_content=DAENYXolHXY&utm_campaign=designshare&utm_medium=link&utm_source=viewer" alt="resume"/> */}
+          </div>
+        </div>
+        <div className={styles.download}>
+          <a
+            href="https://drive.google.com/file/d/1b9WtZXpDklfqbOT0oyHaOvRrVvVmm2dU/view"
+            target="_blank"
+          >
+            Click to view my resume
+          </a>
+        </div>
+      </div>
+      {/* <footer className={styles.footer}>
+          <a
+            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Powered by
+            <span className={styles.logo}>
               <img
+                src="/images/vercel.svg"
+                alt="Vercel Logo"
+                width={72}
+                height={16}
+              />
+            </span>
+          </a>
+        </footer> */}
+    </div>
+  );
+};
+
+export default Resume;
+
+{
+  /* <div>
+              {/* <img src={passport} alt="Passport" /> */
+}
+{
+  /* <img
                 src="/images/passport.png"
                 alt="passport"
                 width="100%"
@@ -36,61 +122,31 @@ const Resume = () => {
               <div className={styles.details}>
                 <h4>Contact</h4>
                 <i className="fa-brands fa-2xl fa-linkedin"></i>
+                <a
+                  // href='.//'
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  +234 913 5014 404
+                </a>
 
-                <p>+234 913 5014 404</p>
-                {/* <p>
-                  {" "}
-                  <i className="fa-brands fa-2xl fa-github"></i>
-                  <a
-                    href="https://github.com/i-am-rita"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </p> */}
-                <p>
-                  {" "}
-                  <i className="fa-brands fa-2xl fa-twitter"></i>
-                  <a
-                    href="https://twitter.com/reetahUzoma"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Twitter
-                  </a>
-                </p>
-                <p>
-                  {" "}
-                  <i className="fa-brands fa-2xl fa-linkedin"></i>
-                  <a
-                    href="https://www.linkedin.com/in/ritauzoma/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {/* <i className="fa-brands fa-2xl fa-linkedin"></i> */}
-                    LinkedIn
-                  </a>
-                </p>
+                <a
+                  href="https://twitter.com/reetahUzoma"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Twitter
+                </a>
 
-                {/* <p>
-                  {" "}
-                  <i className="fa-brands fa-2xl fa-instagram"></i>
-                  <a
-                    href="https://www.instagram.com/ritadeviolinist/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Instagram
-                  </a>
-                </p> */}
-                <p>
-                  {" "}
-                  <i className="fa-regular fa-2xl fa-envelope"></i>
-                  <a href="mailto:ritauzoma07@gmail.com">
-                    ritauzoma07@gmail.com
-                  </a>
-                </p>
+                <a
+                  href="https://www.linkedin.com/in/ritauzoma/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
+
+                <a href="mailto:ritauzoma07@gmail.com">ritauzoma07@gmail.com</a>
               </div>
               <br />
               <div className={styles.details}>
@@ -108,7 +164,7 @@ const Resume = () => {
                     <p>Css</p>
                     <p>SASS</p>
                     <p>Material UI</p>
-                    <p>Styled-component</p>
+                    <p>Styled-comp.</p>
                   </div>
                   <div>
                     <p>Github</p>
@@ -118,9 +174,11 @@ const Resume = () => {
                 </div>
               </div>
 
-              <br />
+              <br /> */
+}
 
-              <div className={styles.details}>
+{
+  /* <div className={styles.details}>
                 <h4>Work ethics</h4>
                 <div className={styles.skillsgrid}>
                   <div>
@@ -177,8 +235,10 @@ const Resume = () => {
                 - Built websites compatible with different bowseers and screen
                 sizes.
               </p>
-              <p>
-                - Developed designs to meet specific requirements such as
+              <p> */
+}
+{
+  /* - Developed designs to meet specific requirements such as
                 quick-loading sites with given layouts.
               </p>
               <p>
@@ -210,8 +270,10 @@ const Resume = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/c/TraversyMedia">
-                    {" "}
+                  <a href="https://www.youtube.com/c/TraversyMedia"> */
+}
+{
+  /* {" "}
                     Traversy Media
                   </a>
                 </li>
@@ -248,35 +310,10 @@ const Resume = () => {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-      <div className={styles.download}>
-        <a
-          href="https://drive.google.com/file/d/1b9WtZXpDklfqbOT0oyHaOvRrVvVmm2dU/view"
-          target="_blank"
-        >
-          Click to view my resume
-        </a>
-      </div>
-      {/* <footer className={styles.footer}>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by
-            <span className={styles.logo}>
-              <img
-                src="/images/vercel.svg"
-                alt="Vercel Logo"
-                width={72}
-                height={16}
-              />
-            </span>
-          </a>
-        </footer> */}
-    </div>
-  );
-};
+        </div> */
+}
 
-export default Resume;
+
+
+
+

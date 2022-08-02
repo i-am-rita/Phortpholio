@@ -20,6 +20,14 @@ const product = [
 
   {
     id: 1,
+    title: "Monster Rolodex",
+    // description: "Jokes from calling an API using Javascript.",
+    image: "/images/monster.png",
+    // github: "https://github.com/i-am-rita/Api-jokes",
+    source: "https://monsters-of-rolodex.netlify.app/",
+  },
+  {
+    id: 2,
     title: "D*y Jokes",
     // description: "Jokes from calling an API using Javascript.",
     image: "/images/api-jokes.png",
@@ -27,7 +35,7 @@ const product = [
     source: "https://api-jokees.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Shoe Shopping site",
     // description:
     //   "Beautiful shopping site for Shoes of different types, sizes and colors",
@@ -36,7 +44,7 @@ const product = [
     source: "https://shopping-syte.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Responsive website",
 
     image: "/images/micro-grid.png",
@@ -53,7 +61,7 @@ const product = [
     source: "https://nature-reetah.netlify.app",
   },
   {
-    id: 4,
+    id: 6,
     title: "Grid layouts",
     // description: "Play around with grid",
     image: "/images/grid.png",
@@ -61,14 +69,15 @@ const product = [
     source: "https://layoutgrid.netlify.app",
   },
   {
-    id: 5,
+    id: 7,
     title: "Netlify Clone",
     image: "/images/netflix.png",
     github: "https://github.com/i-am-rita/netflixx-clone",
     source: "https://netphlixclone.netlify.app/",
   },
+
   {
-    id: 6,
+    id: 8,
     title: "Split shopping page",
     image: "/images/splitshop.png",
     github: "https://github.com/i-am-rita/netflixx-clone",
