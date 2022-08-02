@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=EB+Garamond&family=Fugaz+One&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Tapestry&display=swap");
 
-/* .port_container{
-} */
+
 .container {
   padding: 50px 30px;
   background: #262833;
-  /* background: linear-gradient(30deg, #8d4a8b 30%, #9e4964 55%, #9e489e 94%); */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
@@ -16,7 +14,6 @@
   backdrop-filter: blur(10px);
   border-radius: 5px;
   border: 1px solid rgba(65, 74, 74, 0.2);
-  /* background: rgb(202, 192, 192); */
   background: #000;
   margin-top: 15%;
 }
@@ -53,14 +50,9 @@
   border: 2px solid wheat;
   border-radius: 5px;
   padding: 0 10px;
-  /* letter-spacing: 40px; */
 }
 
-/* .text_onhover i {
-  color: #000;
 
-  cursor: pointer;
-} */
 
 .prodtext {
   text-align: center;
@@ -74,7 +66,6 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
   color: aliceblue;
-  /* line-height: 1; */
 }
 .prodtext p {
   line-height: 1.3;

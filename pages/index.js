@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Link from "next/link";
-// import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
-// import About from "./about";
 import { useState } from "react";
 
 export default function Home() {
@@ -21,7 +19,6 @@ export default function Home() {
         <Head>
           <title>Rita Uzoma</title>
           <meta name="description" content="Portfolio" />
-          {/* <link rel="icon" href="/favicon.ico" /> */}
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -99,14 +96,7 @@ export default function Home() {
           </div>
 
           <div className={styles.image_section}>
-            {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill="#9e3921"
-                d="M64.1,-50.8C80.2,-30.9,88.4,-4.4,83.1,19.1C77.9,42.7,59.1,63.2,36.1,74C13,84.8,-14.4,85.7,-36.8,75.3C-59.2,64.9,-76.6,43.2,-81.6,19.2C-86.6,-4.8,-79.2,-31,-63.5,-50.8C-47.9,-70.6,-23.9,-83.9,0,-84C24,-84,48,-70.7,64.1,-50.8Z"
-                transform="translate(100 100)"
-              /> */}
             <img src="./images/passport.png" alt="Rita" />
-            {/* </svg> */}
           </div>
         </main>
         {/* <footer className={styles.footer}>
