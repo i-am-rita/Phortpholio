@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "../styles/Resume.module.css";
-import passport from "../public/images/passport.png";
+// import passport from "../public/images/passport.png";
 const Resume = () => {
   return (
-    
     <div>
       <div className={styles.container}>
         <div className={styles.download_resume}>
@@ -17,8 +16,7 @@ const Resume = () => {
           </button>
         </div>
         <div className={styles.grid}>
-          <div className="leftgrid">
-            <div
+          <div className="leftgrid"
               style={{
                 position: "absolute",
                 width: "60%",
@@ -29,9 +27,8 @@ const Resume = () => {
                 overflow: "hidden",
                 borderRadius: "8px",
                 willChange: "transform",
-                  alignItems: 'center',
-                  justifyContent: 'center'
-
+                alignItems: "center",
+                justifyContent: "center",
               }}
             >
               <iframe
@@ -42,7 +39,7 @@ const Resume = () => {
                   height: "100%",
                   top: "0",
                   left: "0",
-                  border: 'none',
+                  border: "none",
                   padding: "0",
                   margin: "0",
                 }}
@@ -50,12 +47,12 @@ const Resume = () => {
                 allowfullscreen="allowfullscreen"
                 allow="fullscreen"
               ></iframe>
-            </div>
+            
           </div>
         </div>
         <div className={styles.download}>
           <a
-            href="https://drive.google.com/file/d/1b9WtZXpDklfqbOT0oyHaOvRrVvVmm2dU/view"
+            href="https://www.canva.com/design/DAENYXolHXY/view?embed"
             target="_blank"
           >
             Click to view my resume
@@ -84,4 +81,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
