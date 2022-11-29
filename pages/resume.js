@@ -8,7 +8,7 @@ const Resume = () => {
         <div className={styles.download_resume}>
           <button>
             <a
-              href="https://www.canva.com/design/DAENYXolHXY/view"
+              href="https://www.canva.com/design/DAFKRLFTnA8/view"
               target="_blank"
             >
               Download a copy
@@ -16,43 +16,43 @@ const Resume = () => {
           </button>
         </div>
         <div className={styles.grid}>
-          <div className="leftgrid"
+          <div
+            className="leftgrid"
+            style={{
+              position: "absolute",
+              width: "60%",
+              height: "100vh",
+              boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+              marginTop: "1.6em",
+              marginBottom: "0.9em",
+              overflow: "hidden",
+              borderRadius: "8px",
+              willChange: "transform",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <iframe
+              loading="lazy"
               style={{
                 position: "absolute",
-                width: "60%",
-                height: "100vh",
-                boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
-                marginTop: "1.6em",
-                marginBottom: "0.9em",
-                overflow: "hidden",
-                borderRadius: "8px",
-                willChange: "transform",
-                alignItems: "center",
-                justifyContent: "center",
+                width: "100%",
+                height: "100%",
+                top: "0",
+                left: "0",
+                border: "none",
+                padding: "0",
+                margin: "0",
               }}
-            >
-              <iframe
-                loading="lazy"
-                style={{
-                  position: "absolute",
-                  width: "100%",
-                  height: "100%",
-                  top: "0",
-                  left: "0",
-                  border: "none",
-                  padding: "0",
-                  margin: "0",
-                }}
-                src="https://www.canva.com/design/DAENYXolHXY/view?embed"
-                allowfullscreen="allowfullscreen"
-                allow="fullscreen"
-              ></iframe>
-            
+              src="https://www.canva.com/design/DAFKRLFTnA8/view?embed"
+              allowfullscreen="allowfullscreen"
+              allow="fullscreen"
+            ></iframe>
           </div>
         </div>
         <div className={styles.download}>
           <a
-            href="https://www.canva.com/design/DAENYXolHXY/view?embed"
+            href="https://www.canva.com/design/DAFKRLFTnA8/view?embed"
             target="_blank"
           >
             Click to view my resume

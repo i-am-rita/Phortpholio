@@ -2,7 +2,6 @@ import Image from "next/image";
 import styles from "../styles/Portf.module.css";
 import "../public/images/e-commas.png";
 
-
 const product = [
   {
     id: 0,
@@ -13,27 +12,35 @@ const product = [
 
   {
     id: 1,
+    title: "Fine-restaurant",
+    image: "/images/fine-dine.png",
+    github: "https://github.com/i-am-rita/fine-dining",
+    source: "https://fine-dhine.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Netflix Clone",
+    image: "/images/netflix.png",
+    github: "https://github.com/i-am-rita/netflixx-clone",
+    source: "https://clonennetflix.netlify.app/",
+  },
+
+  {
+    id: 3,
     title: "Monster Rolodex",
     image: "/images/monster.png",
     source: "https://monsters-of-rolodex.netlify.app/",
   },
-  {
-    id: 2,
-    title: "D*y Jokes",
-    image: "/images/api-jokes.png",
-    source: "https://api-jokees.netlify.app",
-  },
-  {
-    id: 3,
-    title: "Shoe Shopping site",
-    image: "/images/shopping-site.png",
-    github: "/",
-    source: "https://shopping-syte.netlify.app",
-  },
+  // {
+  //   id: 3,
+  //   title: "Shoe Shopping site",
+  //   image: "/images/shopping-site.png",
+  //   github: "/",
+  //   source: "https://shopping-syte.netlify.app",
+  // },
   {
     id: 4,
     title: "Responsive website",
-
     image: "/images/micro-grid.png",
     github: "/",
     source: "https://microgrid-clone.netlify.app",
@@ -41,7 +48,7 @@ const product = [
 
   {
     id: 5,
-    title: "Nature website",
+    title: "Fully responsive",
     image: "/images/nature-site.png",
     github: "/",
     source: "https://nature-reetah.netlify.app",
@@ -55,10 +62,9 @@ const product = [
   },
   {
     id: 7,
-    title: "Netlify Clone",
-    image: "/images/netflix.png",
-    github: "https://github.com/i-am-rita/netflixx-clone",
-    source: "https://netphlixclone.netlify.app/",
+    title: "D*y Jokes",
+    image: "/images/api-jokes.png",
+    source: "https://api-jokees.netlify.app",
   },
 
   {

@@ -42,7 +42,7 @@ const Navbar = () => {
 
     <nav className={styles.navbar}>
       <h1 className={styles.logo}>
-        <a href="/">R</a>
+        <a href="/">Rita</a>
       </h1>
       <div className={styles.hamburger} onClick={handleClick}>
         {active ? (
