@@ -8,6 +8,7 @@
   position: sticky;
   width: 100%;
   z-index: 1;
+  border-bottom: 0.2px solid wheat;
 }
 
 .logo {
@@ -20,8 +21,8 @@
 }
 
 .sidenav {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
+  /* grid-template-columns: repeat(3, auto); */
   grid-gap: 20px;
   list-style: none;
   text-align: center;
@@ -60,5 +61,12 @@ border-bottom: 2px solid wheat;
     padding: 0;
 
   }
+  }
+
+  @media screen and (max-width: 520px) {
+    .navbar{
+      justify-content: space-between;
+      width: 100%;
+    }
   }
  

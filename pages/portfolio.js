@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Portf.module.css";
-import "../public/images/e-commas.png";
+// import "../public/images/e-commas.png";
 
 const product = [
   {

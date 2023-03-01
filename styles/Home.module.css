@@ -9,7 +9,7 @@
 .main {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 400px;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
  
@@ -28,7 +28,7 @@
   color: rgb(199, 176, 129);
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
   Bitstream Vera Sans Mono, Courier New, monospace;  font-size: 1.5rem;
-  margin: 10px 0 10px 0;
+  margin: 10px 5px;
   letter-spacing: 5px;
 }
 
@@ -72,6 +72,12 @@
   color: rgb(199, 176, 129);
 }
 
+.image_section img{
+  width: 100%;
+  margin: 10% 0;
+  margin-left: 10%;
+  /* height:80vh; */
+}
 /* .footer {
   display: flex;
   flex: 1;

@@ -1,6 +1,8 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import Link from "next/link";
+// import Header from "../components/Header";
+// import Link from "next/link";
+
+// import
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
 
@@ -96,7 +98,7 @@ export default function Home() {
           </div>
 
           <div className={styles.image_section}>
-            <img src="./images/passport.png" alt="Rita" />
+            <img src="./images/IMG_1403.jpeg" alt="Rita's image" />
           </div>
         </main>
         {/* <footer className={styles.footer}>
