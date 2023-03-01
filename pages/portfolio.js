@@ -13,22 +13,22 @@ const product = [
   {
     id: 1,
     title: "Fine-restaurant",
-    image: "/images/fine-dine.png",
+    image: "/images/restaurant.png",
     github: "https://github.com/i-am-rita/fine-dining",
     source: "https://fine-dhine.netlify.app/",
   },
-  {
-    id: 2,
-    title: "Netflix Clone",
-    image: "/images/netflix.png",
-    github: "https://github.com/i-am-rita/netflixx-clone",
-    source: "https://clonennetflix.netlify.app/",
-  },
+  // {
+  //   id: 2,
+  //   title: "Netflix Clone",
+  //   image: "/images/netflix.png",
+  //   github: "https://github.com/i-am-rita/netflixx-clone",
+  //   source: "https://clonennetflix.netlify.app/",
+  // },
 
   {
     id: 3,
     title: "Monster Rolodex",
-    image: "/images/monster.png",
+    image: "/images/mons-rolodex.png",
     source: "https://monsters-of-rolodex.netlify.app/",
   },
   // {
@@ -41,7 +41,7 @@ const product = [
   {
     id: 4,
     title: "Responsive website",
-    image: "/images/micro-grid.png",
+    image: "/images/responsive.png",
     github: "/",
     source: "https://microgrid-clone.netlify.app",
   },
@@ -49,7 +49,7 @@ const product = [
   {
     id: 5,
     title: "Fully responsive",
-    image: "/images/nature-site.png",
+    image: "/images/dummy-site.png",
     github: "/",
     source: "https://nature-reetah.netlify.app",
   },
@@ -70,7 +70,7 @@ const product = [
   {
     id: 8,
     title: "Split shopping page",
-    image: "/images/splitshop.png",
+    image: "/images/coat.png",
     github: "https://github.com/i-am-rita/netflixx-clone",
     source: "https://split-landinpage.netlify.app/",
   },
