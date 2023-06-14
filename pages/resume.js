@@ -76,7 +76,9 @@ const Resume = () => {
               padding: "0",
               // margin: "50%",
             }}
-            src="https://docs.google.com/document/d/e/2PACX-1vQFTMqClwZBcMwHxxlgV6mOqoJoJi08cC-3W-gGaPBq-BvO7u6OSsfGTx5JCrqaQPx1uGnbZOmXKngH/pub?embedded=true"
+            // https://docs.google.com/document/d/12gD0Sn4db6sTYrFDKDm9V08s5VC1_WgHlkdqX0EmzXk/edit?usp=sharing
+            // src="https://docs.google.com/document/d/e/2PACX-1vQFTMqClwZBcMwHxxlgV6mOqoJoJi08cC-3W-gGaPBq-BvO7u6OSsfGTx5JCrqaQPx1uGnbZOmXKngH/pub?embedded=true"
+            src="https://docs.google.com/document/d/12gD0Sn4db6sTYrFDKDm9V08s5VC1_WgHlkdqX0EmzXk/edit?usp=sharing?embedded=true"
           ></iframe>
           {/* <a
             href="https://www.canva.com/design/DAFKRLFTnA8/view?embed"
