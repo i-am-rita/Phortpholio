@@ -12,7 +12,7 @@ const product = [
 
   {
     id: 1,
-    title: "Fine-restaurant",
+    title: "Fine-restaurant website",
     image: "/images/restaurant.png",
     github: "https://github.com/i-am-rita/fine-dining",
     source: "https://fine-dhine.netlify.app/",
@@ -40,7 +40,7 @@ const product = [
   // },
   {
     id: 4,
-    title: "Responsive website",
+    title: "Responsive microsoft clone",
     image: "/images/responsive.png",
     github: "/",
     source: "https://microgrid-clone.netlify.app",
@@ -48,21 +48,21 @@ const product = [
 
   {
     id: 5,
-    title: "Fully responsive",
+    title: "Responsive nature website",
     image: "/images/dummy-site.png",
     github: "/",
     source: "https://nature-reetah.netlify.app",
   },
   {
     id: 6,
-    title: "Grid layouts",
+    title: "CSS grid layouts",
     image: "/images/grid.png",
     github: "https://github.com/i-am-rita/grid_layout",
     source: "https://layoutgrid.netlify.app",
   },
   {
     id: 7,
-    title: "D*y Jokes",
+    title: "Dry Jokes",
     image: "/images/api-jokes.png",
     source: "https://api-jokees.netlify.app",
   },
